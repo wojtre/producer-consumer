@@ -38,7 +38,7 @@ public class ProducerConsumer {
     }
   }
 
-  public void producer() throws InterruptedException {
+  public void produce() throws InterruptedException {
     int productNumber = 0;
     while (true) {
       synchronized (this) {

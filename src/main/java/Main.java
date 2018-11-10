@@ -14,7 +14,7 @@ public class Main {
 
     Thread producerT = new Thread(() -> {
       try {
-        pc.producer();
+        pc.produce();
       } catch (InterruptedException e) {
         e.printStackTrace();
       }
