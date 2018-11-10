@@ -2,7 +2,7 @@ public class Main {
 
   public static void main(String[] args) throws InterruptedException {
 
-    ProducerConsumer pc = new ProducerConsumer(5);
+    ProducerConsumer pc = new SimpleProducerConsumer(5);
 
     Thread consumerT = new Thread(() -> {
       try {
